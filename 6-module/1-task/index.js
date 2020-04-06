@@ -18,10 +18,8 @@ class ClearedTable {
   constructor(data) {
     this.el = document.createElement('table');
     this.data = data;
-
     const thead = document.createElement('thead');
     const tbody = document.createElement('tbody');
-
     this.el.classList.toggle('pure-table');
 
     thead.innerHTML = `
